@@ -1,0 +1,8 @@
+{
+  "experiments/geography/Mesafe_Matrisi_km.csv": "1382e8393945629de8528a1b186bb08ce959a14f70f673aaea4043ec4e258aae",
+  "experiments/geography/Kume_Uyelikleri.csv": "a52dc47d2e31a1bca0601f0d19f6bf4f6afffdcd3c88f7b4aa8dfb8df3190406",
+  "experiments/demand/Talep_Senaryolari.csv": "2de7c10b3ae9478dc0494f3932c76e9c83bd28138647d911160301b2757a693f",
+  "experiments/demand/Tesis_Talep_Senaryolari.csv": "117477029b0dfc90dcf25a9e63d4e82ed5dda759d14809fc6d8f5a6d9ff81f97",
+  "experiments/demand/Paketli_Kapasite_Duyarliligi.csv": "306af20eb708e29155cbf48c308f6d65cecb10212550041f50a63c362f71408a",
+  "experiments/linked/Road_Graph.json": "cfe13fb2c15b0357838eff93c9a8daa34ba171aff4fb20b7a1e579f4d667109a"
+}

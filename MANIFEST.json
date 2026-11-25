@@ -1,0 +1,166 @@
+{
+  ".gitignore": {
+    "bytes": 62,
+    "sha256": "a7ebeac64aa52f5a16e91c9601c4e71138796a55aa2f7d965ed3e8979c71c762"
+  },
+  "ATTRIBUTION.txt": {
+    "bytes": 698,
+    "sha256": "d18e6d0e8d0364ebe9cd17e8ecdb69be4543833cf56895d431b297e29956b3a8"
+  },
+  "README.md": {
+    "bytes": 2602,
+    "sha256": "1881470dc318c1ad4ab380c0dfce3725684f2f33a9d0ecde3c358fb7727db576"
+  },
+  "data/inputs.zip": {
+    "bytes": 1478662,
+    "sha256": "14b0ca7330aebf1151f5a25753750fbebefc16b6de27fc6b5a6f47fce04418db"
+  },
+  "data/sources.csv": {
+    "bytes": 18571,
+    "sha256": "c840bfbcba03f85e6cbb1f1593d13c4f33efc5ecaa7552bae760e0330d9c5b4e"
+  },
+  "expected/drone.csv": {
+    "bytes": 38921,
+    "sha256": "98af55addd7bf16505f6721217c0b9d971a03027b497de577f57c8de3e253ced"
+  },
+  "expected/ground.csv": {
+    "bytes": 40891,
+    "sha256": "79859e05417ebb64e6ebffc0dff3ee1fa16dd51996483c42838e1da3fc80f6d4"
+  },
+  "expected/ground_preparation.csv": {
+    "bytes": 9300,
+    "sha256": "447a6046548f76059b8381251b2e7aa0f9e632a57f92b6f3d13518783d7e393b"
+  },
+  "expected/input_checks.json": {
+    "bytes": 702,
+    "sha256": "4b01d05a8de3526c0c3d7056d47b77665e637e9f9a64d71809ca2425635a8de6"
+  },
+  "expected/linked.csv": {
+    "bytes": 33322,
+    "sha256": "16af2df74c77c3288428a48fe2536345862d4bc0156325d80bef67eca9a5389c"
+  },
+  "expected/load.csv": {
+    "bytes": 23294,
+    "sha256": "a29611642e55aaac5f30d887692a2f1044aee05c07019839e3a8234ca75b0405"
+  },
+  "expected/preparation.csv": {
+    "bytes": 4407,
+    "sha256": "e55679078a134b16dd466453c1db28205a2e34234bbda76312539a848701b9e6"
+  },
+  "expected/resource.csv": {
+    "bytes": 1765,
+    "sha256": "4f401ce10e3bf7a63076d57a8cbb630502835222e4f9e473288ba1e05de46caa"
+  },
+  "plot_network_solution.py": {
+    "bytes": 13077,
+    "sha256": "23bbc33a8b1f089aee2e37b0b6e2a15cff4b810424097e8387d9ae8f37780ec2"
+  },
+  "reproduce.py": {
+    "bytes": 7899,
+    "sha256": "9e6f0427475c7ad75fcc8e180c1edac04563b81d10e6a39b7d8877b58019befc"
+  },
+  "requirements-figures.txt": {
+    "bytes": 38,
+    "sha256": "ede4bda3bad02e6f13ce3f9e552f22205fd538846cc2aa34d872e40d706bde43"
+  },
+  "requirements.txt": {
+    "bytes": 46,
+    "sha256": "bc3b6aa80b3a93e0155afe6ef389a1eba36a418fc7c3a4dd9e52a1354ef59932"
+  },
+  "src/demand/build_inputs.py": {
+    "bytes": 10124,
+    "sha256": "3b4666ff7e141c565c9980829a6d53a6e01d2023a2a03957727c9d55740e08ef"
+  },
+  "src/demand/demand_payload.py": {
+    "bytes": 7838,
+    "sha256": "d110b6126abdda5574f98c8836839db4ec16f5fd2c3a96e7c55e9c63e1d914b1"
+  },
+  "src/demand/verify_inputs.py": {
+    "bytes": 6132,
+    "sha256": "dcfef4b686f13e4392f93af26afdc0cd15052e34d80dd59eb3e739016324884f"
+  },
+  "src/drone/route_milp.py": {
+    "bytes": 17102,
+    "sha256": "d001282598b604b6da512b059c9afe7b9190722959e80453246808c03b86d457"
+  },
+  "src/drone/run_experiments.py": {
+    "bytes": 11129,
+    "sha256": "4cd9d450d627658c6bf148ae074bb1f6584b7ac424ec1b80cba099bb24033516"
+  },
+  "src/drone/verify_milp.py": {
+    "bytes": 8094,
+    "sha256": "fd002fc42a7c35419ae041431d5c5bf135b91b6bf8a9aa713ab81ae6b793aad2"
+  },
+  "src/geography/geographic_core.py": {
+    "bytes": 3162,
+    "sha256": "f0679b1c3da5a5b02d13c5bebfbb06736c00b90be4d01ba2dc793c485ceaff51"
+  },
+  "src/geography/rebuild_geography.py": {
+    "bytes": 3099,
+    "sha256": "2721e6f18b0f0e652b4580bcedf594b494439e7596393958c2ff2988e15911fa"
+  },
+  "src/geography/verify_geography.py": {
+    "bytes": 1651,
+    "sha256": "6feca6787e0e7da5f31a810ab39fc5bf4ac6979a63648d6fd0487d613f684a29"
+  },
+  "src/ground/benchmark.py": {
+    "bytes": 20027,
+    "sha256": "efcb634c3098328a31aaf3fdf4a25b8a24cc4a1c0c88c0187d7ec0fa510bea6b"
+  },
+  "src/ground/code/ground_model.py": {
+    "bytes": 4312,
+    "sha256": "540072e539ecfd6b35babbc9b119e1c3160295451273c653d1dc9818fc4d7961"
+  },
+  "src/linked/audit_results.py": {
+    "bytes": 5761,
+    "sha256": "6a6e3ffbbe8b2240ecb42da6e4fc45d591908a880026b231a12770d7e2cca763"
+  },
+  "src/linked/build_roads.py": {
+    "bytes": 8779,
+    "sha256": "85f1b1a0063276fd2c5cb3c7050ad54be719a6b41b15a3e8ebfd5640a6816591"
+  },
+  "src/linked/check_closure.py": {
+    "bytes": 2061,
+    "sha256": "0768911cba56d63dcaeed268a95ec56820a10a2031dfa1b4f5ae10292ea08d3d"
+  },
+  "src/linked/linked_drone.py": {
+    "bytes": 19030,
+    "sha256": "1bcae1d30bcb4028379ff08710b4866efe7f79d4087a364f8cebfa3b8938c8cf"
+  },
+  "src/linked/road_core.py": {
+    "bytes": 11595,
+    "sha256": "bbc9325ebe8bdba0bcf2b30c2d4772da2261bc3a686d96f32c0520d28a2c7dc9"
+  },
+  "src/linked/run_linked.py": {
+    "bytes": 13583,
+    "sha256": "ab0fdaa1066abcc45a4916c19b48054451a2e34f0a9be83279aa6af74c86f93d"
+  },
+  "src/linked/run_road_stress.py": {
+    "bytes": 3893,
+    "sha256": "37335eb004ef7e94f375ff0dc52253425fef9ccf663a1a09190292fcdd95bf34"
+  },
+  "src/linked/solve_roads.py": {
+    "bytes": 979,
+    "sha256": "32677d25c8b1834ed3fcf5c520b5c640bbfa5db1c7f215ebfdebaa2db07a5336"
+  },
+  "src/linked/verify_link.py": {
+    "bytes": 6949,
+    "sha256": "77d9fe0c3c919a5cd82d3503f4125525b3bc6b2f848dbdd85a7805997efdb68c"
+  },
+  "src/load/run_load_preparation.py": {
+    "bytes": 18010,
+    "sha256": "9961a60edc5be58f961c0610730b541fce38aa3769ac9d4967c31914767fd2c2"
+  },
+  "src/preparation/independent_checks.py": {
+    "bytes": 3135,
+    "sha256": "b1f38118d718f7162637a70fdd972db3db00668c535ca0bc5ccad0d393c1dd36"
+  },
+  "src/preparation/run_preparation_grid.py": {
+    "bytes": 12285,
+    "sha256": "dc0f44a20d6b63106d6268a170b4d812ec6df6c764c86af08ce202d392b89864"
+  },
+  "src/resource/run_resource_grid.py": {
+    "bytes": 11684,
+    "sha256": "3a04cbb8392996df92a2348cf218128f29eee3c49bc159efb4ae1f0998511103"
+  }
+}

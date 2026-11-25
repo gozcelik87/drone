@@ -1,0 +1,307 @@
+case_id,demand_scenario,policy,status,total_units,ground_units,remote_units,last_delivery_sec,last_drone_return_sec,drones_used,total_airborne_sec,boxes_by_air,wall_seconds,cached_duplicate,maximum_reported_mip_gap,route_candidates,variables,reason
+reference,S040,all,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.074527291,False,0.0,10,361,
+reference,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1930,12,3150,24,0.14231579199999994,False,0.0,7,226,
+reference,S040,direct,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.016015957999999997,False,0.0,4,91,
+demand_S001,S001,all,lexicographic_optimal,51,10,41,588,773,3,857,4,0.03698491599999998,False,0.0,10,361,
+demand_S001,S001,nearest_neighbor,lexicographic_optimal,51,10,41,588,773,3,857,4,0.02145874999999997,False,0.0,7,226,
+demand_S001,S001,direct,lexicographic_optimal,51,10,41,699,820,4,1050,4,0.008286374999999957,False,0.0,4,91,
+demand_S002,S002,all,lexicographic_optimal,41,8,33,588,773,3,857,4,0.03253020899999992,False,0.0,10,361,
+demand_S002,S002,nearest_neighbor,lexicographic_optimal,41,8,33,588,773,3,857,4,0.02291933300000004,False,0.0,7,226,
+demand_S002,S002,direct,lexicographic_optimal,41,8,33,699,820,4,1050,4,0.008748291000000075,False,0.0,4,91,
+demand_S003,S003,all,lexicographic_optimal,26,5,21,588,773,3,857,4,0.03698970800000001,False,0.0,10,361,
+demand_S003,S003,nearest_neighbor,lexicographic_optimal,26,5,21,588,773,3,857,4,0.02494012500000009,False,0.0,7,226,
+demand_S003,S003,direct,lexicographic_optimal,26,5,21,699,820,4,1050,4,0.008363499999999968,False,0.0,4,91,
+demand_S004,S004,all,lexicographic_optimal,126,25,101,1059,1133,7,1907,12,0.05642370899999993,False,0.0,10,361,
+demand_S004,S004,nearest_neighbor,lexicographic_optimal,126,25,101,1059,1128,7,1907,12,0.026565167,False,0.0,7,226,
+demand_S004,S004,direct,lexicographic_optimal,126,25,101,1239,1360,8,2100,12,0.015706208,False,0.0,4,91,
+demand_S005,S005,all,lexicographic_optimal,96,19,77,729,850,4,1050,8,0.033565959000000034,False,0.0,10,361,
+demand_S005,S005,nearest_neighbor,lexicographic_optimal,96,19,77,729,850,4,1050,8,0.026407624999999935,False,0.0,7,226,
+demand_S005,S005,direct,lexicographic_optimal,96,19,77,729,850,4,1050,8,0.011212125000000017,False,0.0,4,91,
+demand_S006,S006,all,lexicographic_optimal,65,13,52,729,850,4,1050,8,0.034947750000000055,False,0.0,10,361,
+demand_S006,S006,nearest_neighbor,lexicographic_optimal,65,13,52,729,850,4,1050,8,0.023943708000000008,False,0.0,7,226,
+demand_S006,S006,direct,lexicographic_optimal,65,13,52,729,850,4,1050,8,0.01135645800000007,False,0.0,4,91,
+demand_S007,S007,all,lexicographic_optimal,251,50,201,1599,1668,11,2957,20,0.054479500000000014,False,0.0,10,361,
+demand_S007,S007,nearest_neighbor,lexicographic_optimal,251,50,201,1599,1750,11,2957,20,0.07559500000000008,False,0.0,7,226,
+demand_S007,S007,direct,lexicographic_optimal,251,50,201,1779,1848,12,3150,20,0.03534862500000013,False,0.0,4,91,
+demand_S008,S008,all,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.07758204199999996,False,0.0,10,361,
+demand_S008,S008,nearest_neighbor,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.04059675000000018,False,0.0,7,226,
+demand_S008,S008,direct,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.03627983300000004,False,0.0,4,91,
+demand_S009,S009,all,lexicographic_optimal,126,25,101,1059,1133,7,1907,12,0.05642370899999993,True,0.0,10,361,
+demand_S009,S009,nearest_neighbor,lexicographic_optimal,126,25,101,1059,1128,7,1907,12,0.026565167,True,0.0,7,226,
+demand_S009,S009,direct,lexicographic_optimal,126,25,101,1239,1360,8,2100,12,0.015706208,True,0.0,4,91,
+demand_S010,S010,all,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.03179104200000005,False,0.0,10,361,
+demand_S010,S010,nearest_neighbor,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.036268125000000095,False,0.0,7,226,
+demand_S010,S010,direct,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.01124791699999994,False,0.0,4,91,
+demand_S011,S011,all,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.030833416000000113,False,0.0,10,361,
+demand_S011,S011,nearest_neighbor,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.02879954099999993,False,0.0,7,226,
+demand_S011,S011,direct,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.019802000000000097,False,0.0,4,91,
+demand_S012,S012,all,lexicographic_optimal,51,10,41,588,773,3,857,4,0.03698491599999998,True,0.0,10,361,
+demand_S012,S012,nearest_neighbor,lexicographic_optimal,51,10,41,588,773,3,857,4,0.02145874999999997,True,0.0,7,226,
+demand_S012,S012,direct,lexicographic_optimal,51,10,41,699,820,4,1050,4,0.008286374999999957,True,0.0,4,91,
+demand_S013,S013,all,lexicographic_optimal,251,50,201,1599,1668,11,2957,20,0.054479500000000014,True,0.0,10,361,
+demand_S013,S013,nearest_neighbor,lexicographic_optimal,251,50,201,1599,1750,11,2957,20,0.07559500000000008,True,0.0,7,226,
+demand_S013,S013,direct,lexicographic_optimal,251,50,201,1779,1848,12,3150,20,0.03534862500000013,True,0.0,4,91,
+demand_S014,S014,all,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.07758204199999996,True,0.0,10,361,
+demand_S014,S014,nearest_neighbor,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.04059675000000018,True,0.0,7,226,
+demand_S014,S014,direct,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.03627983300000004,True,0.0,4,91,
+demand_S015,S015,all,lexicographic_optimal,126,25,101,1059,1133,7,1907,12,0.05642370899999993,True,0.0,10,361,
+demand_S015,S015,nearest_neighbor,lexicographic_optimal,126,25,101,1059,1128,7,1907,12,0.026565167,True,0.0,7,226,
+demand_S015,S015,direct,lexicographic_optimal,126,25,101,1239,1360,8,2100,12,0.015706208,True,0.0,4,91,
+demand_S016,S016,all,proven_infeasible_precheck,501,100,401,,,,,,0.00020225000000007043,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S016,S016,nearest_neighbor,proven_infeasible_precheck,501,100,401,,,,,,0.000197875000000014,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S016,S016,direct,proven_infeasible_precheck,501,100,401,,,,,,0.00019674999999996778,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S017,S017,all,proven_infeasible_precheck,376,75,301,,,,,,0.00019937500000000163,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S017,S017,nearest_neighbor,proven_infeasible_precheck,376,75,301,,,,,,0.00019841700000000628,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S017,S017,direct,proven_infeasible_precheck,376,75,301,,,,,,0.00019829200000009983,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S018,S018,all,lexicographic_optimal,251,50,201,1599,1668,11,2957,20,0.054479500000000014,True,0.0,10,361,
+demand_S018,S018,nearest_neighbor,lexicographic_optimal,251,50,201,1599,1750,11,2957,20,0.07559500000000008,True,0.0,7,226,
+demand_S018,S018,direct,lexicographic_optimal,251,50,201,1779,1848,12,3150,20,0.03534862500000013,True,0.0,4,91,
+demand_S019,S019,all,lexicographic_optimal,151,30,121,1059,1133,7,1907,12,0.08859950000000016,False,0.0,10,361,
+demand_S019,S019,nearest_neighbor,lexicographic_optimal,151,30,121,1059,1210,7,1907,12,0.067381833,False,0.0,7,226,
+demand_S019,S019,direct,lexicographic_optimal,151,30,121,1239,1360,8,2100,12,0.02702654200000021,False,0.0,4,91,
+demand_S020,S020,all,lexicographic_optimal,116,23,93,729,850,4,1050,8,0.04795495900000013,False,0.0,10,361,
+demand_S020,S020,nearest_neighbor,lexicographic_optimal,116,23,93,729,850,4,1050,8,0.03111579199999981,False,0.0,7,226,
+demand_S020,S020,direct,lexicographic_optimal,116,23,93,729,850,4,1050,8,0.011511625000000025,False,0.0,4,91,
+demand_S021,S021,all,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.030833416000000113,True,0.0,10,361,
+demand_S021,S021,nearest_neighbor,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.02879954099999993,True,0.0,7,226,
+demand_S021,S021,direct,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.019802000000000097,True,0.0,4,91,
+demand_S022,S022,all,proven_infeasible_precheck,376,75,301,,,,,,0.00019937500000000163,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S022,S022,nearest_neighbor,proven_infeasible_precheck,376,75,301,,,,,,0.00019841700000000628,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S022,S022,direct,proven_infeasible_precheck,376,75,301,,,,,,0.00019829200000009983,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S023,S023,all,lexicographic_optimal,285,57,228,1599,1668,11,2957,20,0.080741709,False,0.0,10,361,
+demand_S023,S023,nearest_neighbor,lexicographic_optimal,285,57,228,1599,1750,11,2957,20,0.07206325000000025,False,0.0,7,226,
+demand_S023,S023,direct,lexicographic_optimal,285,57,228,1779,1848,12,3150,21,0.05166708299999989,False,0.0,4,91,
+demand_S024,S024,all,lexicographic_optimal,190,38,152,1269,1338,8,2100,16,0.09329220800000027,False,0.0,10,361,
+demand_S024,S024,nearest_neighbor,lexicographic_optimal,190,38,152,1269,1338,8,2100,16,0.052912624999999824,False,0.0,7,226,
+demand_S024,S024,direct,lexicographic_optimal,190,38,152,1269,1338,8,2100,16,0.02519604200000014,False,0.0,4,91,
+demand_S025,S025,all,proven_infeasible_precheck,751,150,601,,,,,,0.0002123339999999807,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S025,S025,nearest_neighbor,proven_infeasible_precheck,751,150,601,,,,,,0.00020695799999970177,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S025,S025,direct,proven_infeasible_precheck,751,150,601,,,,,,0.0001988749999997097,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S026,S026,all,proven_infeasible_precheck,566,113,453,,,,,,0.00020050000000004786,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S026,S026,nearest_neighbor,proven_infeasible_precheck,566,113,453,,,,,,0.00019816600000011064,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S026,S026,direct,proven_infeasible_precheck,566,113,453,,,,,,0.00019645800000001046,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S027,S027,all,proven_infeasible_precheck,376,75,301,,,,,,0.00019937500000000163,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S027,S027,nearest_neighbor,proven_infeasible_precheck,376,75,301,,,,,,0.00019841700000000628,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S027,S027,direct,proven_infeasible_precheck,376,75,301,,,,,,0.00019829200000009983,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S028,S028,all,lexicographic_optimal,71,14,57,729,850,4,1050,8,0.03565187500000011,False,0.0,10,361,
+demand_S028,S028,nearest_neighbor,lexicographic_optimal,71,14,57,729,850,4,1050,8,0.027830083000000005,False,0.0,7,226,
+demand_S028,S028,direct,lexicographic_optimal,71,14,57,729,850,4,1050,8,0.022204000000000335,False,0.0,4,91,
+demand_S029,S029,all,lexicographic_optimal,56,11,45,588,773,3,857,4,0.035370749999999784,False,0.0,10,361,
+demand_S029,S029,nearest_neighbor,lexicographic_optimal,56,11,45,588,773,3,857,4,0.02684383300000004,False,0.0,7,226,
+demand_S029,S029,direct,lexicographic_optimal,56,11,45,699,820,4,1050,4,0.013393583000000042,False,0.0,4,91,
+demand_S030,S030,all,lexicographic_optimal,36,7,29,588,773,3,857,4,0.03348400000000007,False,0.0,10,361,
+demand_S030,S030,nearest_neighbor,lexicographic_optimal,36,7,29,588,773,3,857,4,0.027259374999999864,False,0.0,7,226,
+demand_S030,S030,direct,lexicographic_optimal,36,7,29,699,820,4,1050,4,0.008903458000000253,False,0.0,4,91,
+demand_S031,S031,all,lexicographic_optimal,176,35,141,1059,1128,7,1907,12,0.05797212500000004,False,0.0,10,361,
+demand_S031,S031,nearest_neighbor,lexicographic_optimal,176,35,141,1059,1128,7,1907,12,0.04204095899999993,False,0.0,7,226,
+demand_S031,S031,direct,lexicographic_optimal,176,35,141,1239,1360,8,2100,12,0.03491254099999974,False,0.0,4,91,
+demand_S032,S032,all,lexicographic_optimal,135,27,108,1059,1133,7,1907,12,0.05643991700000006,False,0.0,10,361,
+demand_S032,S032,nearest_neighbor,lexicographic_optimal,135,27,108,1059,1210,7,1907,12,0.04864691699999968,False,0.0,7,226,
+demand_S032,S032,direct,lexicographic_optimal,135,27,108,1239,1360,8,2100,12,0.045538666000000116,False,0.0,4,91,
+demand_S033,S033,all,lexicographic_optimal,90,18,72,729,850,4,1050,8,0.04786012500000014,False,0.0,10,361,
+demand_S033,S033,nearest_neighbor,lexicographic_optimal,90,18,72,729,850,4,1050,8,0.03638399999999997,False,0.0,7,226,
+demand_S033,S033,direct,lexicographic_optimal,90,18,72,729,850,4,1050,8,0.012144167000000206,False,0.0,4,91,
+demand_S034,S034,all,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.074527291,True,0.0,10,361,
+demand_S034,S034,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1930,12,3150,24,0.14231579199999994,True,0.0,7,226,
+demand_S034,S034,direct,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.016015957999999997,True,0.0,4,91,
+demand_S035,S035,all,lexicographic_optimal,266,53,213,1599,1750,11,2957,20,0.1463321249999998,False,0.0,10,361,
+demand_S035,S035,nearest_neighbor,lexicographic_optimal,266,53,213,1599,1750,11,2957,20,0.04665929199999974,False,0.0,7,226,
+demand_S035,S035,direct,lexicographic_optimal,266,53,213,1779,1848,12,3150,20,0.04174645900000007,False,0.0,4,91,
+demand_S036,S036,all,lexicographic_optimal,176,35,141,1059,1128,7,1907,12,0.05797212500000004,True,0.0,10,361,
+demand_S036,S036,nearest_neighbor,lexicographic_optimal,176,35,141,1059,1128,7,1907,12,0.04204095899999993,True,0.0,7,226,
+demand_S036,S036,direct,lexicographic_optimal,176,35,141,1239,1360,8,2100,12,0.03491254099999974,True,0.0,4,91,
+demand_S037,S037,all,lexicographic_optimal,141,28,113,1059,1210,7,1907,12,0.057442541999999985,False,0.0,10,361,
+demand_S037,S037,nearest_neighbor,lexicographic_optimal,141,28,113,1059,1210,7,1907,12,0.038150458000000054,False,0.0,7,226,
+demand_S037,S037,direct,lexicographic_optimal,141,28,113,1239,1360,8,2100,12,0.037772292000000096,False,0.0,4,91,
+demand_S038,S038,all,lexicographic_optimal,106,21,85,729,850,4,1050,8,0.032223582999999945,False,0.0,10,361,
+demand_S038,S038,nearest_neighbor,lexicographic_optimal,106,21,85,729,850,4,1050,8,0.02946991699999968,False,0.0,7,226,
+demand_S038,S038,direct,lexicographic_optimal,106,21,85,729,850,4,1050,8,0.011705000000000076,False,0.0,4,91,
+demand_S039,S039,all,lexicographic_optimal,71,14,57,729,850,4,1050,8,0.03565187500000011,True,0.0,10,361,
+demand_S039,S039,nearest_neighbor,lexicographic_optimal,71,14,57,729,850,4,1050,8,0.027830083000000005,True,0.0,7,226,
+demand_S039,S039,direct,lexicographic_optimal,71,14,57,729,850,4,1050,8,0.022204000000000335,True,0.0,4,91,
+demand_S041,S041,all,lexicographic_optimal,266,53,213,1599,1750,11,2957,20,0.1463321249999998,True,0.0,10,361,
+demand_S041,S041,nearest_neighbor,lexicographic_optimal,266,53,213,1599,1750,11,2957,20,0.04665929199999974,True,0.0,7,226,
+demand_S041,S041,direct,lexicographic_optimal,266,53,213,1779,1848,12,3150,20,0.04174645900000007,True,0.0,4,91,
+demand_S042,S042,all,lexicographic_optimal,176,35,141,1059,1128,7,1907,12,0.05797212500000004,True,0.0,10,361,
+demand_S042,S042,nearest_neighbor,lexicographic_optimal,176,35,141,1059,1128,7,1907,12,0.04204095899999993,True,0.0,7,226,
+demand_S042,S042,direct,lexicographic_optimal,176,35,141,1239,1360,8,2100,12,0.03491254099999974,True,0.0,4,91,
+demand_S043,S043,all,proven_infeasible_precheck,701,140,561,,,,,,0.00021050000000011337,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S043,S043,nearest_neighbor,proven_infeasible_precheck,701,140,561,,,,,,0.0001991249999999667,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S043,S043,direct,proven_infeasible_precheck,701,140,561,,,,,,0.00019654099999977248,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S044,S044,all,proven_infeasible_precheck,526,105,421,,,,,,0.00020116699999972454,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S044,S044,nearest_neighbor,proven_infeasible_precheck,526,105,421,,,,,,0.0001977919999998079,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S044,S044,direct,proven_infeasible_precheck,526,105,421,,,,,,0.00019912500000041078,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S045,S045,all,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.074527291,True,0.0,10,361,
+demand_S045,S045,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1930,12,3150,24,0.14231579199999994,True,0.0,7,226,
+demand_S045,S045,direct,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.016015957999999997,True,0.0,4,91,
+demand_S046,S046,all,lexicographic_optimal,211,42,169,1269,1338,8,2100,16,0.0671163749999999,False,0.0,10,361,
+demand_S046,S046,nearest_neighbor,lexicographic_optimal,211,42,169,1269,1338,8,2100,16,0.037876457999999946,False,0.0,7,226,
+demand_S046,S046,direct,lexicographic_optimal,211,42,169,1269,1338,8,2100,16,0.029305957999999688,False,0.0,4,91,
+demand_S047,S047,all,lexicographic_optimal,161,32,129,1059,1133,7,1907,12,0.07789449999999976,False,0.0,10,361,
+demand_S047,S047,nearest_neighbor,lexicographic_optimal,161,32,129,1059,1210,7,1907,12,0.048060457999999695,False,0.0,7,226,
+demand_S047,S047,direct,lexicographic_optimal,161,32,129,1239,1360,8,2100,12,0.034418624999999814,False,0.0,4,91,
+demand_S048,S048,all,lexicographic_optimal,106,21,85,729,850,4,1050,8,0.032223582999999945,True,0.0,10,361,
+demand_S048,S048,nearest_neighbor,lexicographic_optimal,106,21,85,729,850,4,1050,8,0.02946991699999968,True,0.0,7,226,
+demand_S048,S048,direct,lexicographic_optimal,106,21,85,729,850,4,1050,8,0.011705000000000076,True,0.0,4,91,
+demand_S049,S049,all,proven_infeasible_precheck,526,105,421,,,,,,0.00020116699999972454,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S049,S049,nearest_neighbor,proven_infeasible_precheck,526,105,421,,,,,,0.0001977919999998079,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S049,S049,direct,proven_infeasible_precheck,526,105,421,,,,,,0.00019912500000041078,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S050,S050,all,proven_infeasible_precheck,396,79,317,,,,,,0.00020549999999985857,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S050,S050,nearest_neighbor,proven_infeasible_precheck,396,79,317,,,,,,0.00019829099999979505,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S050,S050,direct,proven_infeasible_precheck,396,79,317,,,,,,0.00019633299999988196,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S051,S051,all,lexicographic_optimal,265,53,212,1599,1750,11,2957,20,0.14610512500000006,False,0.0,10,361,
+demand_S051,S051,nearest_neighbor,lexicographic_optimal,265,53,212,1599,1750,11,2957,20,0.0570218330000003,False,0.0,7,226,
+demand_S051,S051,direct,lexicographic_optimal,265,53,212,1779,1848,12,3150,20,0.04367150000000031,False,0.0,4,91,
+demand_S052,S052,all,proven_infeasible_precheck,1051,210,841,,,,,,0.0002055410000005864,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S052,S052,nearest_neighbor,proven_infeasible_precheck,1051,210,841,,,,,,0.00019895899999955446,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S052,S052,direct,proven_infeasible_precheck,1051,210,841,,,,,,0.00019745799999970615,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S053,S053,all,proven_infeasible_precheck,791,158,633,,,,,,0.00020266599999985146,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S053,S053,nearest_neighbor,proven_infeasible_precheck,791,158,633,,,,,,0.0002010409999995133,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S053,S053,direct,proven_infeasible_precheck,791,158,633,,,,,,0.00020304099999979286,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S054,S054,all,proven_infeasible_precheck,526,105,421,,,,,,0.00020116699999972454,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S054,S054,nearest_neighbor,proven_infeasible_precheck,526,105,421,,,,,,0.0001977919999998079,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S054,S054,direct,proven_infeasible_precheck,526,105,421,,,,,,0.00019912500000041078,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S055,S055,all,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.03179104200000005,True,0.0,10,361,
+demand_S055,S055,nearest_neighbor,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.036268125000000095,True,0.0,7,226,
+demand_S055,S055,direct,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.01124791699999994,True,0.0,4,91,
+demand_S056,S056,all,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.030833416000000113,True,0.0,10,361,
+demand_S056,S056,nearest_neighbor,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.02879954099999993,True,0.0,7,226,
+demand_S056,S056,direct,lexicographic_optimal,76,15,61,729,850,4,1050,8,0.019802000000000097,True,0.0,4,91,
+demand_S057,S057,all,lexicographic_optimal,51,10,41,588,773,3,857,4,0.03698491599999998,True,0.0,10,361,
+demand_S057,S057,nearest_neighbor,lexicographic_optimal,51,10,41,588,773,3,857,4,0.02145874999999997,True,0.0,7,226,
+demand_S057,S057,direct,lexicographic_optimal,51,10,41,699,820,4,1050,4,0.008286374999999957,True,0.0,4,91,
+demand_S058,S058,all,lexicographic_optimal,251,50,201,1599,1668,11,2957,20,0.054479500000000014,True,0.0,10,361,
+demand_S058,S058,nearest_neighbor,lexicographic_optimal,251,50,201,1599,1750,11,2957,20,0.07559500000000008,True,0.0,7,226,
+demand_S058,S058,direct,lexicographic_optimal,251,50,201,1779,1848,12,3150,20,0.03534862500000013,True,0.0,4,91,
+demand_S059,S059,all,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.07758204199999996,True,0.0,10,361,
+demand_S059,S059,nearest_neighbor,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.04059675000000018,True,0.0,7,226,
+demand_S059,S059,direct,lexicographic_optimal,191,38,153,1269,1338,8,2100,16,0.03627983300000004,True,0.0,4,91,
+demand_S060,S060,all,lexicographic_optimal,126,25,101,1059,1133,7,1907,12,0.05642370899999993,True,0.0,10,361,
+demand_S060,S060,nearest_neighbor,lexicographic_optimal,126,25,101,1059,1128,7,1907,12,0.026565167,True,0.0,7,226,
+demand_S060,S060,direct,lexicographic_optimal,126,25,101,1239,1360,8,2100,12,0.015706208,True,0.0,4,91,
+demand_S061,S061,all,proven_infeasible_precheck,501,100,401,,,,,,0.00020225000000007043,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S061,S061,nearest_neighbor,proven_infeasible_precheck,501,100,401,,,,,,0.000197875000000014,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S061,S061,direct,proven_infeasible_precheck,501,100,401,,,,,,0.00019674999999996778,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S062,S062,all,proven_infeasible_precheck,376,75,301,,,,,,0.00019937500000000163,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S062,S062,nearest_neighbor,proven_infeasible_precheck,376,75,301,,,,,,0.00019841700000000628,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S062,S062,direct,proven_infeasible_precheck,376,75,301,,,,,,0.00019829200000009983,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S063,S063,all,lexicographic_optimal,251,50,201,1599,1668,11,2957,20,0.054479500000000014,True,0.0,10,361,
+demand_S063,S063,nearest_neighbor,lexicographic_optimal,251,50,201,1599,1750,11,2957,20,0.07559500000000008,True,0.0,7,226,
+demand_S063,S063,direct,lexicographic_optimal,251,50,201,1779,1848,12,3150,20,0.03534862500000013,True,0.0,4,91,
+demand_S064,S064,all,lexicographic_optimal,201,40,161,1269,1338,8,2100,16,0.07379354099999968,False,0.0,10,361,
+demand_S064,S064,nearest_neighbor,lexicographic_optimal,201,40,161,1269,1338,8,2100,16,0.05189587500000048,False,0.0,7,226,
+demand_S064,S064,direct,lexicographic_optimal,201,40,161,1269,1338,8,2100,16,0.020937500000000497,False,0.0,4,91,
+demand_S065,S065,all,lexicographic_optimal,151,30,121,1059,1133,7,1907,12,0.08859950000000016,True,0.0,10,361,
+demand_S065,S065,nearest_neighbor,lexicographic_optimal,151,30,121,1059,1210,7,1907,12,0.067381833,True,0.0,7,226,
+demand_S065,S065,direct,lexicographic_optimal,151,30,121,1239,1360,8,2100,12,0.02702654200000021,True,0.0,4,91,
+demand_S066,S066,all,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.03179104200000005,True,0.0,10,361,
+demand_S066,S066,nearest_neighbor,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.036268125000000095,True,0.0,7,226,
+demand_S066,S066,direct,lexicographic_optimal,101,20,81,729,850,4,1050,8,0.01124791699999994,True,0.0,4,91,
+demand_S067,S067,all,proven_infeasible_precheck,501,100,401,,,,,,0.00020225000000007043,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S067,S067,nearest_neighbor,proven_infeasible_precheck,501,100,401,,,,,,0.000197875000000014,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S067,S067,direct,proven_infeasible_precheck,501,100,401,,,,,,0.00019674999999996778,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S068,S068,all,proven_infeasible_precheck,376,75,301,,,,,,0.00019937500000000163,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S068,S068,nearest_neighbor,proven_infeasible_precheck,376,75,301,,,,,,0.00019841700000000628,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S068,S068,direct,proven_infeasible_precheck,376,75,301,,,,,,0.00019829200000009983,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S069,S069,all,lexicographic_optimal,251,50,201,1599,1668,11,2957,20,0.054479500000000014,True,0.0,10,361,
+demand_S069,S069,nearest_neighbor,lexicographic_optimal,251,50,201,1599,1750,11,2957,20,0.07559500000000008,True,0.0,7,226,
+demand_S069,S069,direct,lexicographic_optimal,251,50,201,1779,1848,12,3150,20,0.03534862500000013,True,0.0,4,91,
+demand_S070,S070,all,proven_infeasible_precheck,1001,200,801,,,,,,0.00020491599999949983,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S070,S070,nearest_neighbor,proven_infeasible_precheck,1001,200,801,,,,,,0.00019900000000028228,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S070,S070,direct,proven_infeasible_precheck,1001,200,801,,,,,,0.00019716699999960952,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S071,S071,all,proven_infeasible_precheck,751,150,601,,,,,,0.0002123339999999807,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S071,S071,nearest_neighbor,proven_infeasible_precheck,751,150,601,,,,,,0.00020695799999970177,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S071,S071,direct,proven_infeasible_precheck,751,150,601,,,,,,0.0001988749999997097,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S072,S072,all,proven_infeasible_precheck,501,100,401,,,,,,0.00020225000000007043,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S072,S072,nearest_neighbor,proven_infeasible_precheck,501,100,401,,,,,,0.000197875000000014,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S072,S072,direct,proven_infeasible_precheck,501,100,401,,,,,,0.00019674999999996778,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S073,S073,all,lexicographic_optimal,301,60,241,1599,1668,11,2957,21,0.07898687500000001,False,0.0,10,361,
+demand_S073,S073,nearest_neighbor,lexicographic_optimal,301,60,241,1599,1668,11,2957,21,0.06447824999999963,False,0.0,7,226,
+demand_S073,S073,direct,lexicographic_optimal,301,60,241,1779,1848,12,3150,21,0.3463857920000004,False,0.0,4,91,
+demand_S074,S074,all,lexicographic_optimal,226,45,181,1269,1338,8,2100,16,0.07120075000000003,False,0.0,10,361,
+demand_S074,S074,nearest_neighbor,lexicographic_optimal,226,45,181,1269,1338,8,2100,16,0.045257624999999635,False,0.0,7,226,
+demand_S074,S074,direct,lexicographic_optimal,226,45,181,1269,1338,8,2100,16,0.019032208000000495,False,0.0,4,91,
+demand_S075,S075,all,lexicographic_optimal,151,30,121,1059,1133,7,1907,12,0.08859950000000016,True,0.0,10,361,
+demand_S075,S075,nearest_neighbor,lexicographic_optimal,151,30,121,1059,1210,7,1907,12,0.067381833,True,0.0,7,226,
+demand_S075,S075,direct,lexicographic_optimal,151,30,121,1239,1360,8,2100,12,0.02702654200000021,True,0.0,4,91,
+demand_S076,S076,all,proven_infeasible_precheck,751,150,601,,,,,,0.0002123339999999807,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S076,S076,nearest_neighbor,proven_infeasible_precheck,751,150,601,,,,,,0.00020695799999970177,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S076,S076,direct,proven_infeasible_precheck,751,150,601,,,,,,0.0001988749999997097,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S077,S077,all,proven_infeasible_precheck,566,113,453,,,,,,0.00020050000000004786,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S077,S077,nearest_neighbor,proven_infeasible_precheck,566,113,453,,,,,,0.00019816600000011064,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S077,S077,direct,proven_infeasible_precheck,566,113,453,,,,,,0.00019645800000001046,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S078,S078,all,proven_infeasible_precheck,376,75,301,,,,,,0.00019937500000000163,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S078,S078,nearest_neighbor,proven_infeasible_precheck,376,75,301,,,,,,0.00019841700000000628,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S078,S078,direct,proven_infeasible_precheck,376,75,301,,,,,,0.00019829200000009983,True,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S079,S079,all,proven_infeasible_precheck,1502,300,1202,,,,,,0.0002122920000005024,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S079,S079,nearest_neighbor,proven_infeasible_precheck,1502,300,1202,,,,,,0.00019908400000012705,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S079,S079,direct,proven_infeasible_precheck,1502,300,1202,,,,,,0.0001969170000002407,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S080,S080,all,proven_infeasible_precheck,1127,225,902,,,,,,0.00020124999999993065,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S080,S080,nearest_neighbor,proven_infeasible_precheck,1127,225,902,,,,,,0.0001979169999994923,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S080,S080,direct,proven_infeasible_precheck,1127,225,902,,,,,,0.00019900000000028228,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S081,S081,all,proven_infeasible_precheck,752,150,602,,,,,,0.00021262499999963325,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S081,S081,nearest_neighbor,proven_infeasible_precheck,752,150,602,,,,,,0.00020404200000001538,False,,0,,Remote units exceed single-wave fleet capacity at N04
+demand_S081,S081,direct,proven_infeasible_precheck,752,150,602,,,,,,0.00020112500000024625,False,,0,,Remote units exceed single-wave fleet capacity at N04
+box_slots_1,S040,all,proven_infeasible_precheck,351,70,281,,,,,,0.0001375839999999684,False,,0,,Remote units exceed single-wave fleet capacity at N04
+box_slots_1,S040,nearest_neighbor,proven_infeasible_precheck,351,70,281,,,,,,0.00013512499999990268,False,,0,,Remote units exceed single-wave fleet capacity at N04
+box_slots_1,S040,direct,proven_infeasible_precheck,351,70,281,,,,,,0.0001343330000000975,False,,0,,Remote units exceed single-wave fleet capacity at N04
+box_slots_4,S040,all,lexicographic_optimal,351,70,281,1239,1316,8,2228,27,2.0254361659999995,False,0.0,16,739,
+box_slots_4,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1239,1308,8,2228,27,2.1420115409999996,False,0.0,8,289,
+box_slots_4,S040,direct,lexicographic_optimal,351,70,281,1299,1368,8,2100,28,0.09502862499999942,False,0.0,4,91,
+box_slots_8,S040,all,lexicographic_optimal,351,70,281,1239,1316,8,2228,27,2.645227,False,0.0,16,739,
+box_slots_8,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1239,1308,8,2228,27,1.5851032499999995,False,0.0,8,289,
+box_slots_8,S040,direct,lexicographic_optimal,351,70,281,1299,1368,8,2100,28,0.10243758300000039,False,0.0,4,91,
+payload_25kg,S040,all,proven_infeasible_precheck,351,70,281,,,,,,0.0002114579999989985,False,,0,,Remote units exceed single-wave fleet capacity at N04
+payload_25kg,S040,nearest_neighbor,proven_infeasible_precheck,351,70,281,,,,,,0.00020187500000012903,False,,0,,Remote units exceed single-wave fleet capacity at N04
+payload_25kg,S040,direct,proven_infeasible_precheck,351,70,281,,,,,,0.00019687500000031832,False,,0,,Remote units exceed single-wave fleet capacity at N04
+payload_100kg,S040,all,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.07476658300000061,False,0.0,10,361,
+payload_100kg,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1930,12,3150,24,0.13901666699999993,False,0.0,7,226,
+payload_100kg,S040,direct,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.011699457999998941,False,0.0,4,91,
+payload_150kg,S040,all,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.07118637499999991,False,0.0,10,361,
+payload_150kg,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1930,12,3150,24,0.1393322089999991,False,0.0,7,226,
+payload_150kg,S040,direct,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.02026383300000134,False,0.0,4,91,
+air_budget_300s,S040,all,proven_infeasible_solver,351,70,281,,,,,,0.0014162080000001964,False,,2,55,
+air_budget_300s,S040,nearest_neighbor,proven_infeasible_solver,351,70,281,,,,,,0.001231082999998634,False,,2,55,
+air_budget_300s,S040,direct,proven_infeasible_solver,351,70,281,,,,,,0.0011895830000003826,False,,2,55,
+air_budget_360s,S040,all,proven_infeasible_solver,351,70,281,,,,,,0.0025062909999995497,False,,5,154,
+air_budget_360s,S040,nearest_neighbor,proven_infeasible_solver,351,70,281,,,,,,0.0019652499999995854,False,,4,109,
+air_budget_360s,S040,direct,proven_infeasible_solver,351,70,281,,,,,,0.0014580419999994376,False,,3,64,
+air_budget_480s,S040,all,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.0714180829999993,False,0.0,10,361,
+air_budget_480s,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1930,12,3150,24,0.14667429100000007,False,0.0,7,226,
+air_budget_480s,S040,direct,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.013270708000000297,False,0.0,4,91,
+air_budget_1200s,S040,all,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.0771191249999994,False,0.0,10,361,
+air_budget_1200s,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1930,12,3150,24,0.14666566699999883,False,0.0,7,226,
+air_budget_1200s,S040,direct,lexicographic_optimal,351,70,281,1809,1878,12,3150,24,0.012019749999998552,False,0.0,4,91,
+speed_30,S040,all,lexicographic_optimal,351,70,281,1829,1918,12,4362,24,0.05753966700000035,False,0.0,10,361,
+speed_30,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1829,2084,12,4362,24,0.06733283300000004,False,0.0,7,226,
+speed_30,S040,direct,lexicographic_optimal,351,70,281,1829,1918,12,4362,24,0.010495499999999325,False,0.0,4,91,
+speed_60,S040,all,lexicographic_optimal,351,70,281,1800,1860,12,2544,24,0.09130991700000024,False,0.0,10,361,
+speed_60,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1800,1860,12,2544,24,0.04981408299999934,False,0.0,7,226,
+speed_60,S040,direct,lexicographic_optimal,351,70,281,1800,1860,12,2544,24,0.011141957999999619,False,0.0,4,91,
+prep_60s,S040,all,lexicographic_optimal,351,70,281,729,910,12,3150,24,0.05212675000000111,False,0.0,10,361,
+prep_60s,S040,nearest_neighbor,lexicographic_optimal,351,70,281,729,910,12,3150,24,0.022648291999999515,False,0.0,7,226,
+prep_60s,S040,direct,lexicographic_optimal,351,70,281,729,910,12,3150,24,0.01167220800000024,False,0.0,4,91,
+prep_300s,S040,all,lexicographic_optimal,351,70,281,2889,2958,12,3150,24,0.06814016600000095,False,0.0,10,361,
+prep_300s,S040,nearest_neighbor,lexicographic_optimal,351,70,281,2889,2958,12,3150,24,0.033538540999998645,False,0.0,7,226,
+prep_300s,S040,direct,lexicographic_optimal,351,70,281,2889,2958,12,3150,24,0.011048665999998875,False,0.0,4,91,
+crews_up_to_3,S040,all,lexicographic_optimal,351,70,281,729,850,12,3150,24,0.032532749999999666,False,0.0,10,361,
+crews_up_to_3,S040,nearest_neighbor,lexicographic_optimal,351,70,281,729,798,12,3150,24,0.031178249999999963,False,0.0,7,226,
+crews_up_to_3,S040,direct,lexicographic_optimal,351,70,281,729,850,12,3150,24,0.013866499999998894,False,0.0,4,91,
+crews_up_to_9,S040,all,lexicographic_optimal,351,70,281,485,670,12,3150,24,0.058868208999999894,False,0.0,10,361,
+crews_up_to_9,S040,nearest_neighbor,lexicographic_optimal,351,70,281,485,670,12,3150,24,0.032105624999999804,False,0.0,7,226,
+crews_up_to_9,S040,direct,lexicographic_optimal,351,70,281,485,670,12,3150,24,0.015644583000000267,False,0.0,4,91,
+thermal_limit_2400s,S040,all,proven_infeasible_solver,351,70,281,,,,,,0.004387624999999673,False,,10,361,
+thermal_limit_2400s,S040,nearest_neighbor,proven_infeasible_solver,351,70,281,,,,,,0.0032462920000000395,False,,7,226,
+thermal_limit_2400s,S040,direct,proven_infeasible_solver,351,70,281,,,,,,0.0018077079999994083,False,,4,91,
+thermal_limit_3600s,S040,all,proven_infeasible_solver,351,70,281,,,,,,0.012839500000000115,False,,10,361,
+thermal_limit_3600s,S040,nearest_neighbor,proven_infeasible_solver,351,70,281,,,,,,0.008809582999999677,False,,7,226,
+thermal_limit_3600s,S040,direct,proven_infeasible_solver,351,70,281,,,,,,0.004546874999999062,False,,4,91,
+distance_factor_1p5,S040,all,lexicographic_optimal,351,70,281,1819,1898,12,3756,24,0.047446000000000765,False,0.0,10,361,
+distance_factor_1p5,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1819,2006,12,3756,24,0.07432125000000056,False,0.0,7,226,
+distance_factor_1p5,S040,direct,lexicographic_optimal,351,70,281,1819,1898,12,3756,24,0.010366541999999868,False,0.0,4,91,
+one_air_leg_closed,S040,all,lexicographic_optimal,351,70,281,1809,1878,12,3810,24,0.024172000000000082,False,0.0,7,244,
+one_air_leg_closed,S040,nearest_neighbor,lexicographic_optimal,351,70,281,1809,1878,12,3810,24,0.03856583399999991,False,0.0,6,199,
+one_air_leg_closed,S040,direct,proven_infeasible_solver,351,70,281,,,,,,0.0016324169999997196,False,,3,64,
+northern_root_moved_to_N05,S040,all,proven_infeasible_precheck,351,0,351,,,,,,0.00021499999999896602,False,,0,,Remote units exceed single-wave fleet capacity at N05
+northern_root_moved_to_N05,S040,nearest_neighbor,proven_infeasible_precheck,351,0,351,,,,,,0.00020579200000092612,False,,0,,Remote units exceed single-wave fleet capacity at N05
+northern_root_moved_to_N05,S040,direct,proven_infeasible_precheck,351,0,351,,,,,,0.0002026669999999342,False,,0,,Remote units exceed single-wave fleet capacity at N05

@@ -1,0 +1,13 @@
+box_positions_per_drone,preparation_crews_per_root,single_recipient_capacity_units,status,last_delivery_sec,last_delivery_min,drones_used,ground_last_delivery_sec,gain_vs_ground_sec,gain_vs_ground_pct,last_drone_return_sec,total_airborne_sec,boxes_by_air,variables,base_constraints,maximum_mip_gap,solver_wall_sec,reason
+1,1,12,proven_infeasible_precheck,,,,4188,,,,,,,,,0.0008284580000001984,Remote units exceed single-wave fleet capacity at N04
+1,2,12,proven_infeasible_precheck,,,,4188,,,,,,,,,0.000180000000000069,Remote units exceed single-wave fleet capacity at N04
+1,3,12,proven_infeasible_precheck,,,,4188,,,,,,,,,0.0005910000000000082,Remote units exceed single-wave fleet capacity at N04
+2,1,24,lexicographic_optimal,4287,71.45,12,4188,-99,-2.3638968481375358,4408,3150,24,361,930,0.0,0.07927408399999991,
+2,2,24,lexicographic_optimal,3567,59.45,12,4188,621,14.82808022922636,3688,3150,24,361,930,0.0,0.08407199999999992,
+2,3,24,lexicographic_optimal,3207,53.45,12,4188,981,23.42406876790831,3328,3150,24,361,930,0.0,0.030603541999999928,
+3,1,36,lexicographic_optimal,3777,62.95,8,4188,411,9.81375358166189,3846,2100,24,739,1848,0.0,0.3758107920000002,
+3,2,36,lexicographic_optimal,3237,53.95,8,4188,951,22.707736389684815,3358,2100,24,739,1848,0.0,0.1705047500000001,
+3,3,36,lexicographic_optimal,3106,51.766666666666666,8,4188,1082,25.835721107927412,3224,2100,24,739,1848,0.0,0.21021562500000002,
+4,1,40,lexicographic_optimal,3717,61.95,8,4188,471,11.246418338108883,3794,2228,27,739,1848,0.0,2.544609375,
+4,2,40,lexicographic_optimal,3237,53.95,8,4188,951,22.707736389684815,3358,2100,26,739,1848,0.0,0.8272303750000001,
+4,3,40,lexicographic_optimal,3106,51.766666666666666,8,4188,1082,25.835721107927412,3224,2100,27,739,1848,0.0,1.1423316249999997,

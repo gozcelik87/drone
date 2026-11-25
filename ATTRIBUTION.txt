@@ -1,0 +1,12 @@
+Road data: © OpenStreetMap contributors.
+OpenStreetMap data are available under the Open Database Licence (ODbL) 1.0.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+Database timestamp: 19 November 2026, 18:52:28 UTC.
+The single road-source extract in data/inputs.zip supports reconstruction of
+the screened road graph and its numerical transformations.
+
+Facility records and injury counts are separate curated research inputs.
+Their sources are documented in data/sources.csv and the input records.
+They are not represented as OpenStreetMap observations or validated operations.
+Third-party publications, source PDFs and provider webpages are not included.
